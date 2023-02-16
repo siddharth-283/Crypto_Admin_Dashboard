@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@400;500&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
+</head>
+<body>
+    <!-- Start of navbar -->
+    <nav>
+        <div class="container">
+            <img class="logo" src="./assets/images/logo.png" alt="">
+
+            <div class="search-bar">
+                <span class="material-symbols-sharp">search</span>
+                <input type="search" placeholder="Search">
+            </div>
+
+            <div class="profile-area">
+                <div class="theme-btn">
+                    <span class="material-symbols-sharp active">light_mode</span>
+                    <span class="material-symbols-sharp">dark_mode</span>
+                </div>
+                <div class="profile">
+                    <div class="profile-photo">
+                        <img src="./assets/images/profile-1.jpg" alt="">
+                    </div>
+                    <h5>Chu Hua</h5>
+                    <span class="material-symbols-sharp" >expand_more</span>
+                </div>
+                <button id="menu-btn">
+                    <span class="material-symbols-sharp">menu</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- Begning of main manue -->
+    <main>
+        <!-- start of aside -->
+        <aside>
+            <button id="close-btn">
+                <span class="material-symbols-sharp">close</span>
+            </button>
+            <div class="sidebar">
+                <a href="#" class="active">
+                    <span class="material-symbols-sharp">dashboard</span>
+                    <h4>Dashboard</h4>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-sharp">currency_exchange</span>
+                    <h4>Exchange</h4>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-sharp">account_balance_wallet</span>
+                    <h4>Wallet</h4>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-sharp">payment</span>
+                    <h4>Transaction</h4>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-sharp">pie_chart</span>
+                    <h4>Analytic</h4>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-sharp">message</span>
+                    <h4>Message</h4>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-sharp">help_center</span>
+                    <h4>Help Center</h4>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-sharp">settings</span>
+                    <h4>Setting</h4>
+                </a>
+            </div>
+            <!-- end of sidebar -->
+
+            <div class="updates">
+                <span class="material-symbols-sharp">update</span>
+                <h4>Updates Available</h4>
+                <p>Security Updates</p>
+                <p>General Updates</p>
+                <a href="#">Update Know</a>
+            </div>
+        </aside>
+
+        <!-- start of middle section -->
+            <!--  -->
+                <!--  -->
+        <section class="middle">
+            <div class="header">
+                <h1>Overview</h1>
+                <input type="date">
+            </div>
+            <div class="cards">
+                <!-- card 1 -->
+                <div class="card">
+                    <div class="top">
+                        <div class="left">
+                            <img src="./assets/images/BTC.png" alt="">
+                            <h2>BTC</h2>
+                        </div>
+                        <img src="./assets/images/visa.png" class="right">
+                    </div>
+                    <div class="middle">
+                        <h1>$827,199</h1>
+                        <img src="assets/images/card chip.png" class="chip" alt="">
+                    </div>
+                    <div class="bottom">
+                        <div class="left">
+                            <small>Card Holder</small>
+                            <h5>JHON DOE</h5>
+                        </div>
+                        <div class="right">
+                            <div class="expiry">
+                                <small>Expiry</small>
+                                <h5>08/23</h5>
+                            </div>
+                            <div class="cvv">
+                                <small>CVV</small>
+                                <h5>123</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of card 1 -->
+
+                <!-- card 2 -->
+                <div class="card">
+                    <div class="top">
+                        <div class="left">
+                            <img src="./assets/images/ETH.png" alt="">
+                            <h2>ETH</h2>
+                        </div>
+                        <img src="./assets/images/master card.png" class="right">
+                    </div>
+                    <div class="middle">
+                        <h1>$95,632</h1>
+                        <img src="assets/images/card chip.png" class="chip" alt="">
+                    </div>
+                    <div class="bottom">
+                        <div class="left">
+                            <small>Card Holder</small>
+                            <h5>Deon SHN</h5>
+                        </div>
+                        <div class="right">
+                            <div class="expiry">
+                                <small>Expiry</small>
+                                <h5>08/27</h5>
+                            </div>
+                            <div class="cvv">
+                                <small>CVV</small>
+                                <h5>543</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of card 2 -->
+
+                <!-- card 3 -->
+                <div class="card">
+                    <div class="top">
+                        <div class="left">
+                            <img src="./assets/images/ETH.png" alt="">
+                            <h2>ETH</h2>
+                        </div>
+                        <img src="./assets/images/visa.png" class="right">
+                    </div>
+                    <div class="middle">
+                        <h1>$74,834</h1>
+                        <img src="assets/images/card chip.png" class="chip" alt="">
+                    </div>
+                    <div class="bottom">
+                        <div class="left">
+                            <small>Card Holder</small>
+                            <h5>DEL MIKE</h5>
+                        </div>
+                        <div class="right">
+                            <div class="expiry">
+                                <small>Expiry</small>
+                                <h5>08/24</h5>
+                            </div>
+                            <div class="cvv">
+                                <small>CVV</small>
+                                <h5>984</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- start of right section -->
+        <section class="right">
+
+        </section>
+    </main>
+</body>
+</html>
